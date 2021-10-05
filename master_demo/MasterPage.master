@@ -1,0 +1,164 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="StyleSheet.css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+    
+    
+<!--------------------header part-------------------->	
+
+		<header>
+			<div class="banner-area">
+				<h1>Masterpage Demo In Asp.Net</h1>
+			</div>
+		
+		</header>
+		
+<!--------------------end  header part-------------------->	
+	
+	
+<!--------------------manu part-------------------->	
+	
+<div class="manu_back">	
+<table align="center" border="0" width="100%">
+	<tr>
+		
+			
+			<td>	
+<!--------------- side manu bar --------------------->
+	
+	
+	<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">Profile</a>
+  <a href="#">Services</a>
+  <a href="#">About Us</a>
+  <a href="#">Contact</a>
+  <a href="#">Help</a>
+  <a href="#">Logout</a>
+</div>
+
+
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+	
+	
+	
+<!--------------------------end side manu bar---------------------></td>
+			
+			
+			
+	
+		<td><a href="#home" class="manu_logo">LOGO</a></td>
+	
+	<td align="center">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">News</a></li>
+			<li><a href="#">Contact</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Help</a></li>
+		</ul>
+	</td>
+	
+		<td><a href="#home" class="login_btn">LOGIN</a></td>
+	
+	</tr>
+	
+	
+</table>
+</div>
+    
+    
+    
+    
+    
+    
+    
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    
+    
+    
+    
+	<!--------------------horizontal manu part-------------------->	
+	
+	<p>
+		Awakened about 11:40 by a violent jar . . . I went out to the promenade deck and soon learned that we had run into ice . . . and I had heard a passenger state that he saw an iceberg pass the stern of the vessel . . . about 70 feet above water . . . [I] returned to my stateroom . . . [h]aving been told there was no danger . . . The officers in charge of loading the boats were cool and masterful, preventing as far as possible all disorder and enforcing the command to load care for women and children first. When boat 13 was lowered to A deck to be loaded I went to this deck - After 8 or 10 women had been placed aboard, no furt other women or children resp were within hearing to respond to the officers call. A number of men then climbed over the rail into the boat when some one pushed me from behind and shouted get in doctor. I climed in and in a few moments the boat was filled & orders given to lower - As we were lowered boat 15 which had been loaded from the boat deck, was also being lowered - By this we were for a few minutes placed in a perilous position - which threated our destruction - We observed as we neared the water that our boat was being lowered directly into the immense volume of water thrown out from the ships side by the condenser pump - On the Titanic this was a stream from 3 to about 3 feet in diameter, which was thrown with great force 6 or 8 feet form the ship s. It would instantly have swamped our boat - To add to our anxiety boat 15 had swung directly over our heads owing to the fact that the steamer was had settled several feet at her bow - Both boats were being lowered when our loud cries of warning were heard above & the lowering of both boats arrested - As We had no officer or seaman in our boat to direct us but fortunately were able to disengage an oar, and with it we push the bow of our boat . . .
+	</p>
+	
+	<!-------------------footer part-------------------->
+	
+	<footer>
+	<div class="footer_bak">
+		<table class="footer_tab" align="center" width="100%" border="0">
+			<tr>
+				<td colspan="4"><h3>CONTACTS</h3></td>
+			</tr>
+			
+			<tr><td colspan="4">25,airport road,bhavnagar</td></tr>
+			
+			<tr><td colspan="4">Phone:91+ 7801804010</td></tr>
+			
+			<tr><td colspan="4">Email:sarvaiyanayan210@gmail.com</td></tr>
+			
+			<tr><td colspan="4"><input class="esendbox" type="text" name="" placeholder="Email Address.."><input class="esendbtn" type="submit" name="" value="Send"></td></td></tr>
+			
+			<tr>
+			<td><a href="#" class="fa fa-facebook"></a></td>
+			<td><a href="#" class="fa fa-twitter"></a></td>
+			<td><a href="#" class="fa fa-google"></a></td>
+			<td><a href="#" class="fa fa-instagram"></a></td>
+			</tr>
+			
+	
+	
+	
+		</table>
+		
+	</div>
+	</footer>
+	
+	
+	
+	<!----------------end footer part---------->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </form>
+</body>
+</html>

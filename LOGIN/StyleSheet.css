@@ -1,0 +1,64 @@
+﻿body 
+{
+	margin:0px;
+	padding:0px;
+	background:white;
+}
+
+table
+{
+	margin-top:50px;
+	border:1px solid black;
+	border-radius:25px;
+	padding:10px;
+	box-shadow:5px 10px 18px #888888;
+	background:#white;
+	
+	}
+
+.lab
+{
+	font-size:30px;
+	font-weight:bold;
+	font-family:Segoe UI;
+	color:Black;
+	letter-spacing:1px;
+	
+	
+	
+	}
+	
+.tbox
+{
+	font-size:25px;
+	border:2px solid #e4ebeb;
+	background:white;
+	width:80%;
+	height:30px;
+	padding-left:10px;
+	
+	
+	}
+
+.forgot
+{
+	color:Black;
+	text-decoration:none;
+	font-size:28px;
+	margin-right:40px;
+	}
+
+
+.btn
+{
+	margin-left:40px;
+	width:150px;
+	height:40px;
+	font-size:20px;
+	font-weight:bold;
+	color:White;
+	background:black;
+	outline:0px;
+	border:none;
+	
+	}

@@ -1,0 +1,265 @@
+﻿body {
+}
+
+/*---------------header-----------------------*/
+
+header{
+	
+	background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0)),url(img/5.jpg);
+	-webkit-background-size:cover;
+	background-position:center, center;
+	height:100px;
+	
+	
+}
+
+
+.banner-area{
+	overflow: hidden;
+	height:100px;
+	width:100%;
+	background-image: linear-gradient(to left, rgba(0,0,0,0.6), rgba(0,0,0,0.6));
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 255, 0.19); 
+}
+
+
+/*---------------header    END   -----------------------*/
+
+
+
+
+/*---------------h1 for heading-----------------------*/
+
+h1{
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	font-size:50px;
+	margin-top:5px;
+	letter-spacing:1px;
+	word-spacing:2px;
+	
+}
+
+h1 {
+    animation: glow .7s infinite alternate;
+}
+
+@keyframes glow {
+    to {
+        text-shadow: 0 0 12px #fff;
+    }
+}
+
+
+/*---------------h1 for heading----------   END   -------------*/
+
+
+/*-------------horizontal manu----------------------*/
+
+.manu_logo{
+	
+	color:black;
+	font-size:40px;
+	font-weight:bold;
+	
+}
+
+.manu_back{
+	margin-top:10px;
+	padding:10px; 
+	background-color:#87ceeb;
+	
+}
+
+ul {
+  list-style-type: none;
+  
+ 
+  
+}
+
+li {
+	
+  display: inline;
+   margin-right:25px;
+  padding:5px;
+  
+  
+}
+
+li:hover{
+	
+	background:#2f56ed;
+	transition:0.3s;
+	padding:5px;
+	border-radius:5px;
+	
+}
+
+li,a{
+	
+	color:#fff;
+	text-decoration:none;
+	font-size:25px;
+	font-weight:bold;
+	font-family:Gill Sans MT;
+}
+
+.login_btn{
+	
+	background:#2f56ed;
+	padding:5px;
+	border-radius:5px;
+	
+}
+
+
+
+/*-------------end  horizontal manu----------------------*/
+
+
+/*--------------side bar manu----------------------*/
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #222;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+  background:#2f56ed;
+	transition:0.3s;
+	
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/*---------------------end side bar manu---------------------*/
+
+
+p{
+	font-size:18px;
+	margin:5px;
+	padding:5px;
+}
+
+/*-----------footer part-----------------------*/
+
+
+.footer_bak{
+	
+	background-color:#222;
+	height:300px;
+	
+}
+
+.footer_tab{
+	
+	text-align:center;
+	color:#fff;
+	font-size:30px;
+	font-weight:800;
+	padding:5px;
+}
+
+
+
+.fa {
+ width:10px;
+ height:30px;
+  font-size: 30px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.9;
+
+}
+
+.fa-facebook:hover{
+	background-color:#3b5998;
+	
+}
+
+.fa-facebook {
+  
+  color: white;
+}
+
+.fa-twitter {
+ 
+  color: white;
+}
+
+.fa-twitter:hover {
+ background-color:#fff;
+  color: #00acee;
+}
+
+
+.fa-google {
+  
+  color: white;
+}
+
+.fa-google:hover {
+   background-color:#fff;
+  color: #ea4335;
+  
+}
+
+.fa-instagram {
+ 
+  color: white;
+  
+}
+
+.fa-instagram:hover {
+ 
+  background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  
+}
+
+
+
+/*--------------end footer part-----------------------*/
+
+
+
+
+
+
+
+
